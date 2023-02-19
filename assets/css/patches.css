@@ -1,0 +1,7 @@
+#page-content #flexslider.small, #page-content #flexslider-nav.small {
+    height: 600px !important;
+}
+
+#page-content #flexslider.small ul li, #page-content #flexslider-nav.small ul li {
+    height: 600px !important;
+}
