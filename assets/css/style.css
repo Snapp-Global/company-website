@@ -6828,7 +6828,7 @@ ul.timeline li .timeline-badge {
   transition: all .4s ease;
 }
 
-ul.timeline li:nth-child(odd) .content {
+/* ul.timeline li:nth-child(odd) .content {
   float: right;
   padding-left: 50px;
   text-align: left;
@@ -6879,7 +6879,7 @@ ul.timeline li:nth-child(odd):hover .title {
   ul.timeline li:nth-child(odd):hover .title {
     padding-right: 0px;
   }
-}
+} */
 
 #newsletter-form form {
   width: 100%;

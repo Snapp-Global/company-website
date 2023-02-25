@@ -5,7 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Bussible HTML Template</title>
+        <link href="assets/img/snapp-favicon.png" rel="shortcut icon" type="image/x-icon"/>
+        <title>Snapp Global - Home</title>
 
         <!-- Bootstrap -->
         <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
@@ -29,6 +30,10 @@
         
         <!-- Magnific Popup -->
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+        <!-- CSS Patches  -->
+        <link rel="stylesheet" href="assets/css/patches.css">
+
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -56,31 +61,32 @@
             </div>
         </div>
         
+        
         <!--  Header & Menu  -->
         <header id="header">
             <div class="top-nav">
                 <!--  Header Logo  -->
                 <div id="logo">
                     <a class="navbar-brand" href="index.html">
-                        <img src="assets/img/logo.png" class="normal" alt="logo">
-                        <img src="assets/img/logo@2x.png" class="retina" alt="logo">
+                        <img src="assets/img/snapp_logo_blue.svg" class="normal" alt="logo">
+                        <img src="assets/img/snapp_logo_blue.svg" class="retina" alt="logo">
                     </a>
                 </div>
                 <!--  END Header Logo  -->
                 <div class="secondary-menu">
                     <ul>
-                        <li class="mail"><i class="fa fa-envelope" aria-hidden="true"></i><a href="maito:info@domain.com">info@domain.com</a></li>
-                        <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+39 123456789</li>
-                        <li class="lang">
+                        <li class="mail"><i class="fa fa-envelope" aria-hidden="true"></i><a href="maito:info@domain.com">info@snappglobal.com</a></li>
+                        <!-- <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+39 123456789</li> -->
+                        <!-- <li class="lang">
                             <span class="current"><a href="#">En</a></span>
                             <ul>     
                                 <li><a href="#">It</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                         <!-- Search Icon -->
-                        <li class="search">
+                        <!-- <li class="search">
                             <i class="fa fa-search" aria-hidden="true"></i>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
@@ -90,58 +96,19 @@
                     <div class="menu-holder">
                         <ul>
                             <li class="submenu">
-                                <a href="javascript:void(0)">Home</a>
-                                <ul class="sub-menu">
-                                    <li><a href="index.html">Home Classic</a></li>
-                                    <li><a href="index-corporate.html">Home Corporate</a></li>
-                                </ul>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="services.html">Services</a>
                             </li>
                             <li>
                                 <a href="about.html">About</a>
                             </li>
                             <li>
-                                <a href="services.html">Services</a>
-                            </li>
-                            <li class="submenu">
-                                <a href="javascript:void(0)" class="active-item">Pages</a>
-                                <ul class="sub-menu">
-                                    <li><a href="career.html">Career</a>
-                                    </li>
-                                    <li><a href="resources.html">Resources</a>
-                                    </li>
-                                    <li><a href="timeline.html">Timeline</a></li>
-                                    <li><a href="page-sidebar-left.html">Page Sidebar 1</a></li>
-                                    <li><a href="page-sidebar-right.html">Page Sidebar 2</a></li>
-                                    <li><a href="page-image-header.html">Image Header</a></li>
-
-                                    <li><a href="404.html">404</a></li>
-                                </ul>
-                            </li>
-                            <li class="submenu">
-                                <a href="javascript:void(0)">Portfolio</a>
-                                <ul class="sub-menu">
-                                    <li><a href="portfolio-two-columns.html">Two Columns</a></li>
-                                    <li><a href="portfolio-three-columns.html">Three Columns</a></li>
-                                    <li><a href="portfolio-four-columns.html">Four Columns</a></li>
-                                    <li><a href="project-1.html">Project 1</a></li>
-                                    <li><a href="project-2.html">Project 2</a></li>
-                                </ul>
-                            </li>
-                            <li class="submenu">
-                                <a href="javascript:void(0)">Blog</a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog.html">Blog Classic</a></li>
-                                    <li><a href="blog-sidebar.html">Blog Sidebar </a></li>
-                                    <li><a href="single-post.html">Post</a></li>
-                                    <li><a href="single-post-video.html">Post Video</a></li>
-                                    <li><a href="single-post-slider.html">Post Slider</a></li>
-                                </ul>
+                                <a href="career.html">Careers</a>
                             </li>
                             <li>
-                                <a href="elements.html">Elements</a>
-                            </li>
-                            <li>
-                                <a href="contact.html">Contacts</a>
+                                <a href="contact.html">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -188,133 +155,32 @@
             </div>
         </header>
         <!--  END Header & Menu  -->
+        
             
         <!--  Main Wrap  -->
         <div id="main-wrap">
             <!--  Page Content  -->
             <div id="page-content" class="header-static">
                 <!--  Page Header  -->
-                <div id="page-header" class="secondary-background">
+                <div id="post-header">
+                    <div class="bg-image" style="background-image:url(assets/img/slider.jpg)"></div>
                     <div class="container">
                         <div class="row no-margin">
-                            <div class="text">
-                                <h1 class="white">Career.</h1>
-                                <ul class="breadcrumb white">
-                                    <li><a href="#">Home</a></li>
-                                    <li>Career</li>
-                                </ul>
+                            <div class="text secondary-background">
+                                <div class="post-meta padding-onlybottom-md">
+                                    <h1 class="white margin-bottom-small">Error 404.</h1>
+                                    <ul class="categories white">
+                                        <li>Page not found</li>
+                                    </ul>
+                                    <span class="date white">We cannot seem to find the page that you are looking for.</span>
+                                </div>
+                                <a href="index.html" class="btn-alt small white margin-null">Back to Home</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--  END Page Header  -->
-                <div id="home-wrap" class="content-section fullpage-wrap">
-                    <div class="container">
-                        <!-- Section Image -->
-                        <div class="row no-margin padding-lg">
-                            <div class="col-md-12 padding-leftright-null">
-                                <div class="text text-center padding-top-null">
-                                    <h3 class="big">We are hiring.</h3>
-                                </div>
-                            </div>
-                            <div class="row no-margin">
-                                <div class="col-md-6 padding-leftright-null">
-                                    <div class="text padding-topbottom-null padding-md-bottom">
-                                        <h3 class="margin-bottom-extrasmall">Account Manager</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                        <a href="" class="btn-alt small border margin-null">Apply now</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 padding-leftright-null">
-                                    <div class="text padding-topbottom-null">
-                                        <h3 class="margin-bottom-extrasmall">Web Developer</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                        <a href="" class="btn-alt small border margin-null">Apply now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- END Section Image -->
-                    </div>
-                    <!-- Services Section -->
-                    <div class="light-background">
-                        <div class="container">
-                            <div class="row no-margin padding-lg">
-                                <div class="col-md-4 padding-leftright-null">
-                                    <div class="text padding-topbottom-null padding-md-bottom">
-                                        <i class="material-icons service color">weekend</i>
-                                        <h3 class="margin-bottom-extrasmall">Confortable Environment</h3>
-                                        <p class="margin-bottom-null">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 padding-leftright-null">
-                                    <div class="text padding-topbottom-null padding-md-bottom">
-                                        <i class="material-icons color service">trending_up</i>
-                                        <h3 class="margin-bottom-extrasmall">Salary Increases</h3>
-                                        <p class="margin-bottom-null">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 padding-leftright-null">
-                                    <div class="text padding-topbottom-null">
-                                        <i class="material-icons color service">local_cafe</i>
-                                        <h3 class="margin-bottom-extrasmall">Free coffee</h3>
-                                        <p class="margin-bottom-null">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END Services Section -->
-                    <!--  Testimonials Section  -->
-                    <div class="container">
-                        <div class="row no-margin padding-lg">
-                            <div class="col-md-12 padding-leftright-null">
-                                <div class="col-md-4 text padding-topbottom-null">
-                                    <h3 class="margin-md-bottom">See what our employees<br>say about us.</h3>
-                                </div>
-                                <div class="col-md-8 padding-leftright-null">
-                                    <!-- Testimonials -->
-                                    <section class="testimonials-carousel-single">
-                                        <div class="item padding-leftright-null">
-                                            <div class="text padding-bottom-null">
-                                                <div class="person">
-                                                    <div class="description">
-                                                        <em>Anna Brown</em>
-                                                        <span class="margin-null"> Web Developer</span>
-                                                    </div>
-                                                </div>
-                                                <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur voluptatum fugiat molestias, veritatis perspiciatis laborum modi beatae placeat explicabo at laudantium aliquam, nam vero ut!</blockquote>
-                                            </div>
-                                        </div>
-                                        <div class="item padding-leftright-null">
-                                            <div class="text padding-bottom-null">
-                                                <div class="person">
-                                                    <div class="description">
-                                                        <em>John Doe</em>
-                                                        <span class="margin-null">Account Manager</span>
-                                                    </div>
-                                                </div>
-                                                <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur voluptatum fugiat molestias, veritatis perspiciatis laborum modi beatae placeat explicabo at laudantium aliquam, nam vero ut!</blockquote>
-                                            </div>
-                                        </div>
-                                        <div class="item padding-leftright-null">
-                                            <div class="text padding-bottom-null">
-                                                <div class="person">
-                                                    <div class="description">
-                                                        <em>Susan Tril</em>
-                                                        <span class="margin-null">Designer</span>
-                                                    </div>
-                                                </div>
-                                                <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur voluptatum fugiat molestias, veritatis perspiciatis laborum modi beatae placeat explicabo at laudantium aliquam, nam vero ut!</blockquote>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    <!-- END Testimonials -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--  END Testimonials Section  -->
+                <div id="home-wrap" class="content-section fullpage-wrap padding-onlybottom-lg">
                 </div>
             </div>
             <!--  END Page Content -->
@@ -327,28 +193,22 @@
             <div class="container">
                 <div class="row no-margin">
                     <div class="col-md-3 text">
-                        <div class="logo">
+                        <!-- <div class="logo">
                             <img src="assets/img/logo_white.png" class="normal" alt="logo">
                             <img src="assets/img/logo_white@2x.png" class="retina" alt="logo">
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                        <div>
-                            <ul class="social">
-                                <li>Find us on</li>
-                                <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
+                        </div> -->
+                        <h4 class="heading white margin-bottom-small weight-300">Snapp Global</h4>
+                        <p>Snapp Global is a technology company specialising in the architecture and implementation of software and infrastructures on numerous cloud platforms.</p>
+                        
                     </div>
                     <div class="col-md-3 text small">
-                        <h4 class="heading white margin-bottom-small weight-300">Head Office</h4>
-                        <p>Bussible Company <br>
-                            322 Moon St, Venice, 1231, Italy<br>
-                            Mon. - Fri., 9 a.m. - 6.00 p.m.</p>
+                        <h4 class="heading white margin-bottom-small weight-300">Contact us</h4>
+                        <p>Snapp Global<br>
+                            PO Box:48105, Nairobi, Postal Code:00100<br>
+                            Mon. - Fri., 9 a.m. - 6.00 p.m.</p> 
                     </div>
                     <div class="col-md-2 text small">
-                        <h4 class="heading white margin-bottom-small weight-300">Important link</h4>
+                        <h4 class="heading white margin-bottom-small weight-300">Links</h4>
                         <ul class="info">
                             <li><a href="">Home</a></li>
                             <li><a href="">Who we are</a></li>
@@ -358,9 +218,16 @@
                         </ul>
                     </div>
                     <div class="col-md-4 text">
-                        <h4 class="heading white margin-bottom-small weight-300">News Subscribtion</h4>
-                        <p>Subscribe to our newsletter to get all our news in your inbox.</p>
-                        <div id="newsletter-form">
+                        <h4 class="heading white margin-bottom-small weight-300">Socials</h4>
+                        <div>
+                            <ul class="social">
+                                <li>Find us on</li>
+                                <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-mastodon" aria-hidden="true"></i></a></li>   
+                            </ul>
+                        </div>
+                        <!-- <div id="newsletter-form">
                             <form class="search-form">
                                 <div class="form-input">
                                     <input type="text" placeholder="Your email ID">
@@ -369,7 +236,7 @@
                                     </span>
                                 </div>
                             </form>
-                        </div>
+                        </div>  -->
                     </div>
                 </div>
             </div>
@@ -378,7 +245,7 @@
             <div class="container">
                 <div class="row no-margin">
                     <div class="col-md-6 text">
-                        <p>©2017 <a href="#">PuredesignThemes</a>. All rights reserved. </p>
+                        <p>©2023 <a href="#">Snapp Global</a>. All rights reserved. </p>
                     </div>
                     <div class="col-md-6 text text-right">
                         <ul>
