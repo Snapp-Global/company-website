@@ -2,6 +2,8 @@
 Snapp Global Website
 
 
+
+
 # Unsplash image credits
 
 Photo by <a href="https://unsplash.com/@wocintechchat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christina @ wocintechchat.com</a> on <a href="https://unsplash.com/photos/FVgECvTjlBQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
