@@ -1,594 +1,966 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <link href="assets/img/snapp-favicon.png" rel="shortcut icon" type="image/x-icon"/>
-        <title>Snapp Global - Home</title>
 
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
-
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-theme.min.css">
-
-        <!-- Custom css -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-        
-        <link rel="stylesheet" href="assets/css/ionicons.min.css">
-        
-        <!-- Flexslider -->
-        <link rel="stylesheet" href="assets/css/flexslider.css">
-        
-        <!-- Owl -->
-        <link rel="stylesheet" href="assets/css/owl.carousel.css">
-        
-        <!-- Magnific Popup -->
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-
-        <!-- CSS Patches  -->
-        <link rel="stylesheet" href="assets/css/patches.css">
-
-
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
-    <body>
-      
-        <!--  loader  -->
-        <div id="myloader">
-            <div class="loader">
-                <div class="grid">
-                    <div class="cube cube1"></div>
-                    <div class="cube cube2"></div>
-                    <div class="cube cube3"></div>
-                    <div class="cube cube4"></div>
-                    <div class="cube cube5"></div>
-                    <div class="cube cube6"></div>
-                    <div class="cube cube7"></div>
-                    <div class="cube cube8"></div>
-                    <div class="cube cube9"></div>
-                </div>
-            </div>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Snapp Global - Cloud Engineering Experts</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- REVOLUTION STYLE SHEETS -->
+    <link rel="stylesheet" href="revslider/css/rs6.css">
+    <!-- Typography CSS -->
+    <link rel="stylesheet" href="css/typography.css">
+    <!-- Style CSS -->
+    <link rel='stylesheet' href='css/qloud-style.css' />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <style>
+      .textgyreadventor rs-layer {
+        font-size: 30px;
+      }
+    </style>
+</head>
+  <body>
+    <!-- loading -->
+    <div id="loading">
+      <div id="loading-center">
+        <div class="load-img" >
+          <img src="images/loader.gif" alt="loader">
         </div>
-        
-        <!--  Header & Menu  -->
-        <header id="header">
-            <div class="top-nav">
-                <!--  Header Logo  -->
-                <div id="logo">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="assets/img/snapp_logo_blue.svg" class="normal" alt="logo">
-                        <img src="assets/img/snapp_logo_blue.svg" class="retina" alt="logo">
+      </div>
+    </div>
+    <!-- loading End -->
+    <!-- Header -->
+    <header id="main-header" class="header-main header2">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <a class="navbar-brand" href="index.html">
+                <img class="img-fluid" src="images/snapp_logo_blue.png" alt="img">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="menu-btn d-inline-block" id="menu-btn">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </span>
+              <span class="ion-navicon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active" href="#iq-home" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Home
                     </a>
-                </div>
-                <!--  END Header Logo  -->
-                <div class="secondary-menu">
-                    <ul>
-                        <li class="mail"><i class="fa fa-envelope" aria-hidden="true"></i><a href="maito:info@domain.com">info@snappglobal.com</a></li>
-                        <!-- <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+39 123456789</li> -->
-                        <!-- <li class="lang">
-                            <span class="current"><a href="#">En</a></span>
-                            <ul>     
-                                <li><a href="#">It</a></li>
-                            </ul>
-                        </li> -->
-                        <!-- Search Icon -->
-                        <!-- <li class="search">
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        </li> -->
-                    </ul>
-                </div>
-            </div>
-            <nav class="navbar navbar-default">
-                <!--  Classic menu, responsive menu classic  -->
-                <div id="menu-classic">
-                    <div class="menu-holder">
-                        <ul>
-                            <li class="submenu">
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li>
-                                <a href="services.html">Services</a>
-                            </li>
-                            <li>
-                                <a href="about.html">About</a>
-                            </li>
-                            <li>
-                                <a href="career.html">Careers</a>
-                            </li>
-                            <li>
-                                <a href="contact.html">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!--  END Classic menu, responsive menu classic  -->
-                <!--  Button for Responsive Menu Classic  -->
-                <div id="menu-responsive-classic">
-                    <div class="menu-button">
-                        <span class="bar bar-1"></span>
-                        <span class="bar bar-2"></span>
-                        <span class="bar bar-3"></span>
-                    </div>
-                </div>
-                <!--  END Button for Responsive Menu Classic  -->
-                <div class="secondary-menu-mobile">
-                    <ul>
-                        <li class="mail"><i class="fa fa-envelope" aria-hidden="true"></i><a href="maito:info@domain.com">info@domain.com</a></li>
-                        <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+39 123456789</li>
-                        <li class="lang">
-                            <span class="current"><a href="#">En</a></span>
-                            <ul>     
-                                <li><a href="#">It</a></li>
-                            </ul>
-                        </li>
-                        <!-- Search Icon -->
-                        <li class="search">
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        </li>
-                    </ul>
-                </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="about-us.html" id="aboutus" role="button" aria-haspopup="true" aria-expanded="false">
+                      About Us
+                    </a>
+                   
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="services.html" id="navbarDropdown-2" role="button" aria-haspopup="true" aria-expanded="false">
+                      Services
+                    </a>
+                    
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="contact-us.html" id="navbarDropdown-3" role="button" aria-haspopup="true" aria-expanded="false">
+                      Contact Us
+                    </a>
+                  </li>
+                 
+                </ul>
+              </div>
             </nav>
-            <div id="header-searchform">
-                <form class="search-form">
-                    <div class="form-input">
-                        <input type="text" placeholder="Search...">
-                        <span class="form-button-close">
-                            <button type="button"><i class="material-icons">close</i></button>
-                        </span>
-                        <span class="form-button">
-                            <button type="button">Search</button>
-                        </span>
-                    </div>
-                </form>
-            </div>
-        </header>
-        <!--  END Header & Menu  -->
-            
-        <!--  Main Wrap  -->
-        <div id="main-wrap">
-            <!--  Page Content  -->
-            <div id="page-content" class="header-static">
-                <!--  Slider  -->
-                <div id="flexslider" class="fullpage-wrap small">
-                    <ul class="slides">
-                        <li style="background-image:url(assets/img/index/shapes1.jpg)">
-                       <div class="text center">
-                                <h1 class="heading center white margin-bottom-small">Creating successful<br> cloud infrastructures</h1><p><span id="typed" class="big white" data-typed-first="a creative company" data-typed-second="an innovative company"></span></p>
-                                <p class="heading white center margin-bottom">We lay the building blocks for your cloud transition</p>
-                            </div>
-                            <div class="gradient dark"></div>
-                        </li>
-                    </ul>
-                    <div id="godown">
-                        <a href="#home-wrap" class="btn-down">
-                            <i class="material-icons">keyboard_arrow_down</i>
-                        </a>
-                    </div>
-                </div>
-                <!--  END Slider  -->
-                <div id="home-wrap" class="content-section fullpage-wrap">
-                    <!-- CTA -->
-                    <div class="secondary-background">
-                        <div class="container">
-                            <!-- Section Image -->
-                            <div class="row no-margin">
-                                <div class="col-md-9 padding-leftright-null">
-                                    <div class="text text-md-center">
-                                        <h2 class="white small">Cloud expertise in Azure, AWS, RedHat and GCP.</h2>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 padding-leftright-null">
-                                    <div class="text text-right padding-md-top-null text-md-center">
-                                        <!-- <a href="#" class="btn-alt active small white margin-null">Learn more</a> -->
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-                    </div>
-                    <!-- END CTA -->
-                    <div class="container">
-                        <!-- Section Image -->
-                        <div class="row no-margin padding-lg">
-                            <div class="col-md-4 padding-leftright-null">
-                                <div data-responsive="parent-height" data-responsive-id="about-corporate" class="text padding-md-top-null">
-                                    <h2 class="margin-bottom-null left">Cloud architects, engineers and consultants.</h2>
-                                    <div class="padding-onlytop-sm">
-                                        <p class="margin-bottom">Our team of cloud experts can help you drive your cloud adoption from conception through to delivery and support.
-                                        </p>
-                                        <p class="margin-bottom">We use architectures and best practices from each cloud provider to deliver scalable and dependable cloud infrastructures for our clients.   
-                                        </p>
-                                        <!-- <a href="#" class="btn-pro">Read More</a> -->
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-8 padding-leftright-null">
-                                <div data-responsive="child-height" data-responsive-id="about-corporate" class="section-image height-auto-sm">
-                                   <picture class="section right bottom">
-                                       <img src="assets/img/cloud-infrastructure.png" class="img-responsive" alt="">
-                                   </picture>
-                               </div>
-                            </div>
-                        </div>
-                        <!-- END Section Image -->
-                    </div>
-                    <!-- Services -->
-                    <div class="light-background"> 
-                        <div class="container">
-                            <div class="row no-margin padding-lg">
-                                <div class="col-md-6 padding-leftright-null">
-                                    <div data-responsive="child-height" data-responsive-id="services-corporate" class="section-image height-auto-md margin-md-bottom">
-                                        <picture class="section right">
-                                            <img src="assets/img/engineering-code.jpg" class="img-responsive simple-shadow" style="border-radius: 1%;" alt="">
-                                        </picture>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 padding-leftright-null">
-                                    <div data-responsive="parent-height" data-responsive-id="services-corporate" class="text padding-topbottom-null">
-                                        <h2 class="margin-bottom-null left">Software engineers and architects </h2>
-                                        <div class="padding-onlytop-sm">
-                                            <p class="margin-bottom">We build bespoke software systems for our clients ranging from simple to complex and small scale to mass market.</p>
-                                            <p class="margin-bottom">Our teams are adept at architecting and engineering solutions based on a variety of technologies from Java to .NET, Python, Golang and others.</p>
-                                            <p class="margin-bottom">Our expertise can help realise new systems, replace legacy systems or augment your existing teams. </p>
-                                        </div>
-                                        <!-- Box Services -->
-                                        <!-- <div class="row box-services padding-onlytop-md">
-                                            <div class="col-md-6 padding-leftright-null">
-                                                <div class="box-service">
-                                                    <i class="material-icons color service">headset_mic</i>
-                                                    <h3 class="margin-bottom-extrasmall">Support<br> 24/24</h3>
-                                                    <p class="margin-bottom-null">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 padding-leftright-null">
-                                                <div class="box-service">
-                                                    <i class="material-icons color service">people</i>
-                                                    <h3 class="margin-bottom-extrasmall">Professional<br>Team</h3>
-                                                    <p class="margin-bottom-null">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                </div>
-                                            </div>
-                                        </div> -->
-                                        <!-- END Box Services -->
-                                        <div class="row no-margin">
-                                            <div class="text padding-left-null padding-bottom-null">
-                                                <!-- <a href="#" class="btn-pro">Read More</a> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END Services -->
-                    <div class="container">
-                        <!-- Section Image -->
-                        <div class="row no-margin padding-lg">
-                            <div class="col-md-4 padding-leftright-null">
-                                <div data-responsive="parent-height" data-responsive-id="about-corporate" class="text padding-md-top-null">
-                                    <h2 class="margin-bottom-null left">QA Automation</h2>
-                                    <div class="padding-onlytop-sm">
-                                        <p class="margin-bottom">Quality assurance is a key part of success and an essential part of your investment in technology. Too often this is left to chance or implemented inconsistently.
-                                        </p>
-                                        <p class="margin-bottom">Our experienced QA engineers leverage automation tools so that testing is an integral part of your delivery process.    
-                                        </p>
-                                        <!-- <a href="#" class="btn-pro">Read More</a> -->
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-8 padding-leftright-null">
-                                <div data-responsive="child-height" data-responsive-id="about-corporate" class="section-image height-auto-sm">
-                                   <picture class="section right bottom">
-                                       <img src="assets/img/qa-automation.jpg" class="img-responsive" style="border-radius: 1%;" alt="">
-                                   </picture>
-                               </div>
-                            </div>
-                        </div>
-                        <!-- END Section Image -->
-                    </div>
-                    <!-- Services -->
-                    <div class="color-background"> 
-                        <div class="container">
-                            <div class="row no-margin padding-onlytop-lg">
-                                <div class="col-md-6 padding-leftright-null">
-                                    <div class="text padding-top-null">
-                                        <h3 class="big white">Achieving scale and reliability with cloud infrastructure</h3>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 padding-leftright-null">
-                                    <div class="text padding-top-null">
-                                        <p class="white margin-bottom-small">
-                                            Move beyond the limitations of your data centre and benefit from the opportunities of operating at scale in the cloud. 
-                                        </p>
-                                        <p class="white margin-bottom-small">
-                                            World-class infrastructure becomes a reality when workloads run in the cloud.  
-                                        </p>
-                                        <p class="white margin-bottom-small">
-                                            Find out how to start your cloud journey and how Snapp Global can help.  
-                                        </p>
-                                        <!-- <a href="#" class="btn-pro white">Read More</a> -->
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row no-margin padding-onlybottom-lg">
-                                <div class="col-md-12 padding-leftright-null">
-                                    <div class="text padding-topbottom-null">
-                                        <picture>
-                                            <img src="assets/img/statistics.png" alt="" class="img-responsive">
-                                        </picture>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END Services Section -->
-                    <div class="container">
-                        <div class="row no-margin">
-                            <div class="col-md-12 padding-leftright-null">
-                                <div class="partners">
-                                    <div class="col-xs-6 col-sm-4 col-md-2 text padding-leftright-null">
-                                        <h3>Trusted By</h3>
-                                    </div>
-                                    <div class="col-xs-6 col-sm-4 col-md-2 partner">
-                                        <img class="img-responsive" src="assets/img/client-logos/bosch.png" alt="">
-                                    </div>
-                                    <div class="col-xs-6 col-sm-4 col-md-2 partner">
-                                        <img class="img-responsive" src="assets/img/client-logos/mercedes.png" alt="">
-                                    </div>
-                                    <div class="col-xs-6 col-sm-4 col-md-2 partner">
-                                        <img class="img-responsive" src="assets/img/client-logos/equity.png" alt="">
-                                    </div>
-                                    <div class="col-xs-6 col-sm-4 col-md-2 partner">
-                                        <img class="img-responsive" src="assets/img/client-logos/ncba.png" alt="">
-                                    </div>
-                                    <div class="col-xs-6 col-sm-4 col-md-2 partner">
-                                        <img class="img-responsive" src="assets/img/client-logos/hsbc.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="container">
-                        <div class="row no-margin padding-lg">
-                            <div class="col-md-4 padding-leftright-null">
-                                <div class="text padding-topbottom-null padding-md-bottom">
-                                    <i class="material-icons color service">card_travel</i>
-                                    <h3 class="margin-bottom-extrasmall">Experience</h3>
-                                    <p class="margin-bottom-null">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4 padding-leftright-null">
-                                <div class="text padding-topbottom-null padding-md-bottom">
-                                    <i class="material-icons color service">trending_up</i>
-                                    <h3 class="margin-bottom-extrasmall">Goals</h3>
-                                    <p class="margin-bottom-null">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4 padding-leftright-null">
-                                <div class="text padding-topbottom-null">
-                                    <i class="material-icons color service">lightbulb_outline</i>
-                                    <h3 class="margin-bottom-extrasmall">Vision</h3>
-                                    <p class="margin-bottom-null">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- END Services Section -->
-                    <!--  Section Plans  -->
-                    <!-- <div class="light-background"> 
-                        <div class="container">
-                            <div class="row no-margin padding-lg">
-                                <div class="col-md-12 padding-leftright-null">
-                                    <div class="text padding-topbottom-null">
-                                        <h3 class="big">Our Plans.</h3>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-md-8 padding-leftright-null">
-                                    <div id="pricing" class="padding-onlytop-md">
-                                        <div class="col-sm-6 padding-leftright-null">
-                                            <div class="price margin-md-bottom">
-                                                <div class="price-title">Business</div>
-                                                <div class="price-number">$25</div>
-                                                <div class="price-rate">per mounth</div>
-                                                <ul>
-                                                    <li><b>12 Gb</b> Storage</li>
-                                                    <li><b>1</b> Commercial Site</li>
-                                                    <li><b>No</b> Backup</li>
-                                                    <li><b>12 hours</b> support</li>
-                                                </ul>
-                                                <a href="#" class="btn-alt small shadow">Get Started</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 padding-leftright-null">
-                                            <div class="price active margin-md-bottom">
-                                                <div class="price-title">Enterprice</div>
-                                                <div class="price-number">$50</div>
-                                                <div class="price-rate">per mounth</div>
-                                                <ul>
-                                                    <li><b>Unlimited</b> Storage</li>
-                                                    <li><b>Unlimited</b> Commercial Site</li>
-                                                    <li><b>Yes</b> Backup</li>
-                                                    <li><b>24 hours</b> support</li>
-                                                </ul>
-                                                <a href="#" class="btn-alt small shadow">Get Started</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 padding-leftright-null">
-                                    <div class="text padding-md-bottom-null">
-                                        <h3 class="margin-bottom-small">Each plan inludes</h3>
-                                        <ul class="styled margin-bottom-small">
-                                            <li>30 days money back</li>
-                                            <li>Royalty free licence</li>
-                                            <li>Payment with Paypal</li>
-                                        </ul>
-                                        <p class="padding-onlytop-sm margin-bottom-small">You need more information about services and plans?</p>
-                                        <a href="#" class="btn-pro">Contatc us</a>
-                                    </div>
-                                </div>
-                               
-                            </div>
-                        </div>
-                    </div> -->
-                    <!--  END Section Plans  -->
-                    <!-- Section Partners -->
-                    <!-- Testimonials -->
-                    <!-- <div class="container">
-                        <div class="row no-margin padding-lg">
-                            <div class="col-md-12 padding-leftright-null">
-                                <div class="col-md-4 text padding-topbottom-null">
-                                    <h3 class="margin-md-bottom">See what our customers<br>say about us.</h3>
-                                </div>
-                                <div class="col-md-8 padding-leftright-null">
-                                    
-                                    <section class="testimonials-carousel-single">
-                                        <div class="item padding-leftright-null">
-                                            <div class="text padding-bottom-null">
-                                                <div class="person">
-                                                    <div class="description">
-                                                        <em>Anna Brown</em>
-                                                        <span class="margin-null"> CEO at Index.com</span>
-                                                    </div>
-                                                </div>
-                                                <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur voluptatum fugiat molestias, veritatis perspiciatis laborum modi beatae placeat explicabo at laudantium aliquam, nam vero ut!</blockquote>
-                                            </div>
-                                        </div>
-                                        <div class="item padding-leftright-null">
-                                            <div class="text padding-bottom-null">
-                                                <div class="person">
-                                                    <div class="description">
-                                                        <em>John Doe</em>
-                                                        <span class="margin-null">CMO at Company.com</span>
-                                                    </div>
-                                                </div>
-                                                <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur voluptatum fugiat molestias, veritatis perspiciatis laborum modi beatae placeat explicabo at laudantium aliquam, nam vero ut!</blockquote>
-                                            </div>
-                                        </div>
-                                        <div class="item padding-leftright-null">
-                                            <div class="text padding-bottom-null">
-                                                <div class="person">
-                                                    <div class="description">
-                                                        <em>Susan Tril</em>
-                                                        <span class="margin-null">Designer at Pink.com</span>
-                                                    </div>
-                                                </div>
-                                                <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur voluptatum fugiat molestias, veritatis perspiciatis laborum modi beatae placeat explicabo at laudantium aliquam, nam vero ut!</blockquote>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- END Testimonials -->
-                    <!-- END Section Partners -->
-                </div>
-            </div>
-            <!--  END Page Content -->
+          </div>
         </div>
-        <!--  Main Wrap  -->
-        
+      </div>
+    </header>
+    <!-- Header End -->
+    
+    <!-- START Slider 1 REVOLUTION SLIDER 6.1.8 --><p class="rs-p-wp-fix"></p>
+    <rs-module-wrap id="rev_slider_9_1_wrapper" data-alias="slider-1" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+    <rs-module id="rev_slider_9_1" style="display:none;" data-version="6.1.8">
+    <rs-slides>
+    <rs-slide data-key="rs-12" data-title="Slide" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+    <img src="revslider/assets/bg-sdd.jpg" alt="img" title="bg-sdd" width="1600" height="892" class="rev-slidebg" data-no-retina>
+    <!--
+    -->
+    <!-- <rs-group
+    id="slider-9-slide-12-layer-19"
+    data-type="group"
+    data-rsp_ch="on"
+    data-xy="x:l,l,c,c;xo:5px,5px,0,0;y:t,t,m,m;yo:641px,641px,-12px,60px;"
+    data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
+    data-dim="w:456px,456px,376px,355px;h:180px,180px,128px,124px;"
+    data-frame_0="x:0,0,0px,0px;y:0,0,0px,0px;o:1;"
+    data-frame_1="x:0,0,0px,0px;y:0,0,0px,0px;"
+    data-frame_999="o:0;st:w;sA:9000;"
+    style="z-index:19;"
+    > -->
+    <!--
+    -->
+    <!-- <rs-layer
+    id="slider-9-slide-12-layer-4"
+    data-type="image"
+    data-rsp_ch="on"
+    data-xy="x:l,l,c,c;xo:-74px,-74px,4px,2px;y:b;yo:-53px,-53px,-26px,-17px;"
+    data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
+    data-dim="w:565px,565px,356px,351px;h:255px,255px,161px,158px;"
+    data-frame_0="x:left;y:0,0,0,0px;"
+    data-frame_1="x:0,0,0,0px;y:0,0,0,0px;st:3840;sp:1000;sR:3840;"
+    data-frame_999="o:0;st:w;sR:4160;"
+    style="z-index:16;"
+    ><img src="revslider/assets/slider-064png.png" alt="img" width="565" height="255" data-no-retina>
+    </rs-layer> -->
+    <!--
+    -->
+    <!-- <a
+      id="slider-9-slide-12-layer-5"
+      class="rs-layer popup-youtube"
+      href="#" target="_self" rel="nofollow"
+      data-type="button"
+      data-rsp_ch="on"
+      data-xy="x:l,l,c,c;xo:293px,293px,77px,70px;y:b,b,m,m;yo:48px,48px,8px,-1px;"
+      data-text="w:normal;s:20,20,12,11;l:60,60,36,38;a:center;"
+      data-dim="w:60px,60px,36px,38px;h:60px,60px,36px,38px;minw:60px,60px,none,none;minh:60px,60px,none,none;"
+      data-border="bos:solid;boc:#ffffff;bow:1px,1px,1px,1px;bor:50%,50%,50%,50%;"
+      data-frame_0="x:0,0,0px,0px;y:0,0,0px,0px;sX:0.9;sY:0.9;"
+      data-frame_1="x:0,0,0px,0px;y:0,0,0px,0px;st:4160;sp:1000;sR:4160;"
+      data-frame_999="o:0;st:w;sR:3840;"
+      style="z-index:17;background-color:rgba(0,0,0,0);text-transform:uppercase;"
+      ><i class="fa-play"></i>
+    </a> -->
+    <!--
+    -->
+    <!-- <rs-layer
+    id="slider-9-slide-12-layer-6"
+    data-type="text"
+    data-color="#5e7290"
+    data-rsp_ch="on"
+    data-xy="x:l,l,c,c;xo:9px,9px,-61px,-68px;y:b,b,b,m;yo:47px,47px,37px,0;"
+    data-text="w:normal;s:18,18,14,14;l:25,25,24,24;"
+    data-frame_0="x:0,0,0,0px;y:100%;"
+    data-frame_0_mask="u:t;x:0,0,0,0px;y:0,0,0,0px;"
+    data-frame_1="x:0,0,0,0px;y:0,0,0,0px;st:3340;sp:1200;sR:3340;"
+    data-frame_1_mask="u:t;x:0,0,0,0px;y:0,0,0,0px;"
+    data-frame_999="o:0;st:w;sR:4460;"
+    style="z-index:18;"
+    >Watch our videos<br />
+    for cloud computing
+    </rs-layer> -->
+    <!--
+    -->
+    <!-- <rs-layer
+    id="slider-9-slide-12-layer-7"
+    data-type="image"
+    data-rsp_ch="on"
+    data-xy="x:l,l,l,c;xo:379px,379px,306px,0;y:b,b,b,m;yo:36px,36px,33px,0;"
+    data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
+    data-dim="w:87px,87px,41px,39px;h:101px,101px,48px,44px;"
+    data-frame_0="x:-100%;y:0,0,0,0px;"
+    data-frame_0_mask="u:t;x:0,0,0,0px;y:0,0,0,0px;"
+    data-frame_1="x:0,0,0,0px;y:0,0,0,0px;st:3770;sp:1000;sR:3770;"
+    data-frame_1_mask="u:t;x:0,0,0,0px;y:0,0,0,0px;"
+    data-frame_999="o:0;st:w;sR:4230;"
+    data-loop_0="y:5px;"
+    data-loop_999="y:-5px;sp:3000;e:Sine.easeInOut;yym:t;"
+    style="z-index:15;"
+    ><img src="revslider/assets/boy.png" alt="img" width="87" height="101" data-no-retina>
+    </rs-layer> -->
+    <!--
+    --></rs-group><!--
+    --><rs-layer
+    id="slider-9-slide-12-layer-0"
+    class="textgyreadventor"
+    data-type="text"
+    data-color="#007bfc"
+    data-rsp_ch="on"
+    data-xy="x:l,l,c,c;xo:210px,210px,0,0;yo:200px,200px,146px,113px;"
+    data-text="w:normal;s:72,72,45,40;l:100,100,60,50;a:left,left,center,center;"
+    data-frame_0="y:100%;"
+    data-frame_0_mask="u:t;"
+    data-frame_1="st:320;sp:1200;sR:320;"
+    data-frame_1_mask="u:t;"
+    data-frame_999="o:0;st:w;sR:7480;"
+    style="z-index:8;"
+    >Snapp Global<br />
+    
+    </rs-layer><!--
+    --><rs-layer
+    id="slider-9-slide-12-layer-1"
+    class="textgyreadventor"
+    data-type="text"
+    data-color="#0d1e67"
+    data-rsp_ch="on"
+    data-xy="x:l,l,c,c;xo:210px,210px,0,0;yo:290px,290px,200px,162px;"
+    data-text="w:normal;s:52,52,25,20;l:90,90,60,50;a:left,left,center,center;"
+    
+    data-frame_0="y:100%;"
+    data-frame_0_mask="u:t;"
+    data-frame_1="st:540;sp:1200;sR:540;"
+    data-frame_1_mask="u:t;"
+    data-frame_999="o:0;st:w;sR:7260;"
+    style="z-index:10; font-size: 20px;"
+    >Cloud Engineering Experts
+    </rs-layer><!--
+    --><rs-layer
+    id="slider-9-slide-12-layer-2"
+    data-type="text"
+    data-color="#5e7290"
+    data-rsp_ch="on"
+    data-xy="x:l,l,c,c;xo:216px,216px,0,0;yo:394px,394px,271px,227px;"
+    data-text="w:normal;s:18,18,14,16;l:28,28,24,26;a:left,left,center,center;"
+    data-frame_0="y:100%;"
+    data-frame_0_mask="u:t;"
+    data-frame_1="st:860;sp:1200;sR:860;"
+    data-frame_1_mask="u:t;"
+    data-frame_999="o:0;st:w;sR:6940;"
+    style="z-index:11;"
+    >Creating scalable cloud infrastructures on Azure, AWS, GCP and RedHat
+    </rs-layer><!--
+    -->
+    <a href="about-us.html" style="">
+    <rs-layer
+    id="slider-9-slide-12-layer-3"
+    class="rev-btn"
+    data-type="button"
+    data-rsp_ch="on"
+    data-xy="x:l,l,c,c;xo:210px,210px,0,0;y:m;yo:70px,70px,-120px,-30px;"
+    data-text="w:normal;s:18,18,14,14;l:50,50,14,14;"
+    data-dim="minh:0px,0px,none,none;"
+    data-padding="t:0,0,12,12;r:40,40,30,30;b:0,0,12,12;l:40,40,30,30;"
+    data-border="bor:3px,3px,3px,3px;"
+    data-frame_0="y:100%;"
+    data-frame_0_mask="u:t;"
+    data-frame_1="st:1060;sp:1200;sR:1060;"
+    data-frame_1_mask="u:t;"
+    data-frame_999="o:0;st:w;sR:6740;"
+    data-frame_hover="bgc:#142149;bor:3px,3px,3px,3px;sp:500ms;e:Power1.easeInOut;bri:120%;"
+    style="z-index:12;background-color:#007aff;"
+    >Learn more
+    </rs-layer></a>
+    <!--
+    --><rs-layer
+    id="slider-9-slide-12-layer-8"
+    data-type="image"
+    data-rsp_ch="on"
+    data-xy="x:r;xo:290px,290px,350px,206px;y:m;yo:0,0,230px,210px;"
+    data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
+    data-dim="w:198px,198px,95px,58px;h:384px,384px,186px,114px;"
+    data-frame_0="y:100%;"
+    data-frame_0_mask="u:t;"
+    data-frame_1="st:1880;sp:1200;sR:1880;"
+    data-frame_1_mask="u:t;"
+    data-frame_999="o:0;st:w;sR:5920;"
+    style="z-index:22;"
+    ><img src="revslider/assets/slider-060.png" alt="img" width="198" height="384" data-no-retina>
+    </rs-layer><!--
+    --><rs-layer
+    id="slider-9-slide-12-layer-9"
+    data-type="image"
+    data-rsp_ch="on"
+    data-xy="x:r;xo:282px,282px,345px,201px;yo:129px,129px,556px,472px;"
+    data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
+    data-dim="w:185px,185px,89px,56px;h:205px,205px,99px,62px;"
+    data-frame_0="y:-100%;"
+    data-frame_0_mask="u:t;"
+    data-frame_1="st:2490;sp:1200;sR:2490;"
+    data-frame_1_mask="u:t;"
+    data-frame_999="o:0;st:w;sR:5310;"
+    data-loop_0="y:10px;"
+    data-loop_999="sp:3000;e:Sine.easeInOut;yym:t;"
+    style="z-index:23;"
+    ><img src="revslider/assets/cloud.png" alt="img" width="185" height="205" data-no-retina>
+    </rs-layer><!--
+    --><rs-layer
+    id="slider-9-slide-12-layer-10"
+    data-type="image"
+    data-rsp_ch="on"
+    data-xy="x:r;xo:534px,534px,469px,279px;y:m;yo:84px,84px,270px,234px;"
+    data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
+    data-dim="w:126px,126px,60px,43px;h:170px,170px,82px,58px;"
+    data-frame_0="y:100%;"
+    data-frame_0_mask="u:t;"
+    data-frame_1="st:3670;sp:1200;sR:3670;"
+    data-frame_1_mask="u:t;"
+    data-frame_999="o:0;st:w;sR:4130;"
+    style="z-index:24;"
+    ><img src="revslider/assets/b1.png" alt="img" width="126" height="170" data-no-retina>
+    </rs-layer><!--
+    --><rs-layer
+    id="slider-9-slide-12-layer-11"
+    data-type="image"
+    data-rsp_ch="on"
+    data-xy="x:r;xo:260px,260px,336px,197px;y:m;yo:203px,203px,328px,270px;"
+    data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
+    data-dim="w:126px,126px,60px,42px;h:170px,170px,82px,57px;"
+    data-frame_0="y:100%;"
+    data-frame_0_mask="u:t;"
+    data-frame_1="st:3670;sp:1200;sR:3670;"
+    data-frame_1_mask="u:t;"
+    data-frame_999="o:0;st:w;sR:4130;"
+    style="z-index:25;"
+    ><img src="revslider/assets/b2.png" alt="img" width="126" height="170" data-no-retina>
+    </rs-layer><!--
+    --><rs-layer
+    id="slider-9-slide-12-layer-12"
+    data-type="image"
+    data-rsp_ch="on"
+    data-xy="x:r;xo:200px,200px,307px,179px;y:m;yo:-38px,-38px,212px,199px;"
+    data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
+    data-dim="w:126px,126px,60px,40px;h:170px,170px,82px,54px;"
+    data-frame_0="y:100%;"
+    data-frame_0_mask="u:t;"
+    data-frame_1="st:3210;sp:1200;sR:3210;"
+    data-frame_1_mask="u:t;"
+    data-frame_999="o:0;st:w;sR:4590;"
+    style="z-index:21;"
+    ><img src="revslider/assets/b2.png" alt="img" width="126" height="170" data-no-retina>
+    </rs-layer><!--
+    --><rs-layer
+    id="slider-9-slide-12-layer-13"
+    data-type="image"
+    data-rsp_ch="on"
+    data-xy="xo:913px,913px,238px,159px;yo:259px,259px,618px,507px;"
+    data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
+    data-dim="w:464px,464px,224px,144px;h:506px,506px,245px,157px;"
+    data-frame_0="sX:0.9;sY:0.9;"
+    data-frame_1="st:2920;sp:1000;sR:2920;"
+    data-frame_999="o:0;st:w;sR:5080;"
+    style="z-index:20;"
+    ><img src="revslider/assets/line.png" alt="img" width="464" height="506" data-no-retina>
+    </rs-layer><!--
+    --><rs-layer
+    id="slider-9-slide-12-layer-14"
+    data-type="image"
+    data-rsp_ch="on"
+    data-xy="x:r;xo:-7px,-7px,207px,119px;y:m;yo:23px,23px,240px,216px;"
+    data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
+    data-dim="w:758px,758px,368px,241px;h:758px,758px,368px,241px;"
+    data-frame_0="sX:0.9;sY:0.9;"
+    data-frame_1="st:5580;sp:1000;sR:5580;"
+    data-frame_999="o:0;st:w;sR:2420;"
+    data-loop_999="rZ:360;sp:80000;"
+    style="z-index:14;"
+    ><img src="revslider/assets/slider-058.png" alt="img" width="902" height="902" data-no-retina>
+    </rs-layer><!--
+    --><rs-layer
+    id="slider-9-slide-12-layer-15"
+    data-type="image"
+    data-rsp_ch="on"
+    data-xy="x:r;xo:174px,174px,294px,171px;y:m;yo:7px,7px,233px,211px;"
+    data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
+    data-dim="w:444px,444px,215px,132px;h:444px,444px,215px,132px;"
+    data-frame_0="sX:0.9;sY:0.9;"
+    data-frame_1="st:4220;sp:1000;sR:4220;"
+    data-frame_999="o:0;st:w;sR:3780;"
+    data-loop_999="rZ:-360deg;sp:80000;"
+    style="z-index:13;"
+    ><img src="revslider/assets/slider-059.png" alt="img" width="444" height="444" data-no-retina>
+    </rs-layer><!--
+    --><rs-layer
+    id="slider-9-slide-12-layer-16"
+    data-type="image"
+    data-rsp_ch="on"
+    data-xy="xo:382px,382px,369px,209px;yo:89px,89px,89px,77px;"
+    data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
+    data-dim="w:127px,127px,74px,57px;h:50px,50px,29px,22px;"
+    data-frame_0="sX:0.9;sY:0.9;"
+    data-frame_1="st:2110;sp:1000;sR:2110;"
+    data-frame_999="o:0;st:w;sR:5890;"
+    data-loop_0="x:-100;"
+    data-loop_999="x:100;sp:30000;e:Sine.easeInOut;yym:t;"
+    style="z-index:9;"
+    ><img src="revslider/assets/sky.png" alt="img" width="127" height="50" data-no-retina>
+    </rs-layer><!--
+    --><rs-layer
+    id="slider-9-slide-12-layer-17"
+    data-type="shape"
+    data-rsp_ch="on"
+    data-xy="xo:651px,651px,63px,38px;yo:468px,468px,563px,347px;"
+    data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
+    data-dim="w:16px,16px,15px,9px;h:16px,16px,15px,9px;"
+    data-border="bor:90%,90%,90%,90%;"
+    data-frame_0="x:0,0,0px,0px;y:0,0,0px,0px;sX:0.9;sY:0.9;"
+    data-frame_1="x:0,0,0px,0px;y:0,0,0px,0px;st:1280;sp:1000;"
+    data-frame_999="o:0;st:w;sR:7420;"
+    data-loop_0="xR:5px;yR:5px;"
+    data-loop_999="xR:5px;yR:5px;crd:t;sp:3000;"
+    style="z-index:27;background-color:rgba(20,33,73,0.1);"
+    >
+    </rs-layer><!--
+    --><rs-layer
+    id="slider-9-slide-12-layer-18"
+    data-type="shape"
+    data-rsp_ch="on"
+    data-xy="xo:541px,541px,685px,48px;yo:148px,148px,103px,93px;"
+    data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
+    data-dim="w:16px,16px,14px,10px;h:16px,16px,14px,10px;"
+    data-border="bor:90%,90%,90%,90%;"
+    data-frame_0="x:0,0,0px,0px;y:0,0,0px,0px;sX:0.9;sY:0.9;"
+    data-frame_1="x:0,0,0px,0px;y:0,0,0px,0px;st:1280;sp:1000;"
+    data-frame_999="o:0;st:w;sR:7420;"
+    data-loop_0="xR:2px;yR:2px;"
+    data-loop_999="xR:2px;yR:2px;crd:t;sp:3000;"
+    style="z-index:26;background-color:rgba(0,123,252,0.1);"
+    >
+    </rs-layer><!--
+    -->                                 </rs-slide>
+    </rs-slides>
+    <rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>
+    </rs-module>
+    <script >
+    if(typeof revslider_showDoubleJqueryError === "undefined") {
+    function revslider_showDoubleJqueryError(sliderID) {
+    var err = "<div class='rs_error_message_box'>";
+      err += "<div class='rs_error_message_oops'>Oops...</div>";
+      err += "<div class='rs_error_message_content'>";
+        err += "You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
+        err += "To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
+        err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
+      err += "</div>";
+    err += "</div>";
+    jQuery(sliderID).show().html(err);
+    }
+    }
+    </script>
+    </rs-module-wrap>
+    <!-- END REVOLUTION SLIDER -->
 
-        <!--  Footer  -->
-        <footer>
-            <div class="container">
-                <div class="row no-margin">
-                    <div class="col-md-3 text">
-                        <!-- <div class="logo">
-                            <img src="assets/img/logo_white.png" class="normal" alt="logo">
-                            <img src="assets/img/logo_white@2x.png" class="retina" alt="logo">
-                        </div> -->
-                        <h4 class="heading white margin-bottom-small weight-300">Snapp Global</h4>
-                        <p>Snapp Global is a technology company specialising in the architecture and implementation of software and infrastructures on numerous cloud platforms.</p>
-                        
-                    </div>
-                    <div class="col-md-3 text small">
-                        <h4 class="heading white margin-bottom-small weight-300">Contact us</h4>
-                        <p>Snapp Global<br>
-                            PO Box:48105, Nairobi, Postal Code:00100<br>
-                            Mon. - Fri., 9 a.m. - 6.00 p.m.</p> 
-                    </div>
-                    <div class="col-md-2 text small">
-                        <h4 class="heading white margin-bottom-small weight-300">Links</h4>
-                        <ul class="info">
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Who we are</a></li>
-                            <li><a href="">Support</a></li>
-                            <li><a href="">FAQ</a></li>
-                            <li><a href="">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 text">
-                        <h4 class="heading white margin-bottom-small weight-300">Socials</h4>
-                        <div>
-                            <ul class="social">
-                                <li>Find us on</li>
-                                <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href=""><i class="fa fa-mastodon" aria-hidden="true"></i></a></li>   
-                            </ul>
-                        </div>
-                        <!-- <div id="newsletter-form">
-                            <form class="search-form">
-                                <div class="form-input">
-                                    <input type="text" placeholder="Your email ID">
-                                    <span class="form-button">
-                                        <button type="button">Sign Up</button>
-                                    </span>
-                                </div>
-                            </form>
-                        </div>  -->
-                    </div>
-                </div>
+
+    <!-- Icon-box Start -->
+    <section class="iq-pb-70">
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-12 wow fadeInUp">
+            <div class="text-center iq-title-box iq-title-default iq-title-box-2">
+            <div class="iq-title-icon">
             </div>
-        </footer>
-        <div id="copy">
-            <div class="container">
-                <div class="row no-margin">
-                    <div class="col-md-6 text">
-                        <p>©2023 <a href="#">Snapp Global</a>. All rights reserved. </p>
-                    </div>
-                    <div class="col-md-6 text text-right">
-                        <ul>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Cookie Policy</a></li>
-                            <li><a href="#">Term and Condition</a></li>
-                        </ul>
-                    </div>
-                </div>
+            <!-- <span class="iq-subtitle">Products</span> -->
+            <h2 class="iq-title">Cloud architects, engineers and consultants</h2> 
+            </div>
+            </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-duration="0.2s">
+            <div class="iq-icon-box iq-icon-box-style-5   iq-box-shadow">
+            <div class="icon-box-content">
+            <h4 class="icon-box-title"> <a href="services.html">Cloud Adoption</a>
+            </h4>   
+            <p class="icon-box-desc">Our cloud consultants work with you to define a cloud adoption strategy. We look at your business requirements, your success criteria as well as your budget, team skills and more.
+            </p>
+            <div class="iq-btn-container">
+            <a class="iq-button d-inline" href="services.html">Learn more    
+            </a>
+            </div>
+            </div>
+          <div class="icon-box-img">
+              <img src="images/product/04.png"  class="img-fluid" alt="01s">   
+          </div>
+      </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-duration="0.4s">
+            <div class="iq-icon-box iq-icon-box-style-5   iq-box-shadow">
+            <div class="icon-box-content">
+            <h4 class="icon-box-title"> <a href="services.html">Cloud infrastructure</a>
+            </h4>   
+            <p class="icon-box-desc"> Our cloud engineers use best practices from each cloud provider to create a solid technical foundation for running critical workloads in the cloud.
+            </p>
+            <div class="iq-btn-container">
+            <a class="iq-button d-inline" href="services.html">Learn more   
+            </a>
+            </div>
+            </div>
+            <div class="icon-box-img">
+            <img src="images/product/01.png"  class="img-fluid"  alt="02s">    </div>
             </div>
         </div>
-        <!--  END Footer. Class fixed for fixed footer  -->
-        
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="assets/js/jquery.min.js"></script>
-        <!-- All js library -->
-        <script src="assets/js/bootstrap/bootstrap.min.js"></script>
-        <script src="assets/js/jquery.flexslider-min.js"></script>
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <script src="assets/js/isotope.min.js"></script>
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=false"></script>
-        <script src="assets/js/jquery.scrollTo.min.js"></script>
-        <script src="assets/js/smooth.scroll.min.js"></script>
-        <script src="assets/js/jquery.appear.js"></script>
-        <script src="assets/js/jquery.countTo.js"></script>
-        <script src="assets/js/jquery.scrolly.js"></script>
-        <script src="assets/js/plugins-scroll.js"></script>
-        <script src="assets/js/imagesloaded.min.js"></script>
-        <script src="assets/js/pace.min.js"></script>
-        <script src="assets/js/main.js"></script>
+        <div class="col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-duration="0.6s">
+            <div class="iq-icon-box iq-icon-box-style-5   iq-box-shadow">
+            <div class="icon-box-content">
+            <h4 class="icon-box-title"> <a href="services.html">DevOps</a></h4>   
+            <p class="icon-box-desc">We help improve developer productivity by creating frictionless deployment from source code to running systems throughout the development lifecycle.
+            </p>
+            <div class="iq-btn-container">
+            <a class="iq-button d-inline" href="services.html">Learn more</a>
+            </div>
+            </div>
+            <div class="icon-box-img">
+            <img src="images/product/03.png"  class="img-fluid" alt="03s">    </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-duration="0.8s">
+            <div class="iq-icon-box iq-icon-box-style-5   iq-box-shadow">
+            <div class="icon-box-content">
+            <h4 class="icon-box-title"> <a href="services.html">Engineering</a>
+            </h4>   
+            <p class="icon-box-desc">Our software engineers work directly with business stakeholders to develop cloud-native software in .NET, Java and more.
+            </p>
+            <div class="iq-btn-container">
+            <a class="iq-button d-inline" href="services.html">Learn more</a>
+            </div>
+            </div>
+            <div class="icon-box-img">
+            <img src="images/product/02.png" class="img-fluid" alt="04">    </div>
+            </div>
+        </div>
+      </div>
+      </div>
+      </section>
+      <!-- Icon-box End -->
+
+      <!-- Counter Start -->
+    <section class="main-bg " style="background: url(images/others/06.jpg) no-repeat 0 0; background-attachment: fixed; background-size:cover; ">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6 mb-lg-0 mb-5">
+                  <div class="iq-title-box iq-title-default iq-title-box-2">                        <span class="iq-subtitle">Technology</span>
+                      <h2 class="iq-title text-white">Technical expertise</h2>
+                      <p class="iq-title-desc text-white">When it comes to executing a cloud strategy, there is no such thing as ‘one size fits all.’ With an integrated suite of cloud-based services, we will meet you wherever you are on your cloud journey and simplify the way forwards. Our technical expertise includes:</p>
+                  </div>
+                  <div class="iq-list  iq-two-column">    
+                    <ul class="iq-list-with-icon">
+                                <li class="text-white">
+                                <i class="ion ion-checkmark-round"></i>
+                                    Hybrid Cloud            </li>
+                            
+                                <li class="text-white">
+                                <i class="ion ion-checkmark-round"></i>
+                                    Kubernetes            </li>
+                            
+                                <li class="text-white">
+                                <i class="ion ion-checkmark-round"></i>
+                                    Logging and Monitoring            </li>
+                            
+                                <li class="text-white">
+                                <i class="ion ion-checkmark-round"></i>
+                                    Cloud Security            </li>
+                            
+                                <li class="text-white">
+                                <i class="ion ion-checkmark-round"></i>
+                                    High Availability            </li>
+                            
+                                <li class="text-white">
+                                <i class="ion ion-checkmark-round"></i>
+                                    DevOps           </li>
+                            
+                        </ul>
+                  </div>
+                  
+              </div>
+              <div class="col-lg-6 align-self-stretch align-self-center">
+                  <div class="iq-popup-video">
+              <div class="iq-video-img position-relative">
+                                
+                      <div class="iq-video-icon wow FadeIn" >
+                          
+                      </div>
+              </div>
+</div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- Counter End -->
+
+      
+
+
+
+    <!-- Client Start -->
+    <div class="iq-client-compute overview-block-ptb">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 wow fadeInUp">
+            <div class="text-center iq-title-box iq-title-default iq-title-box-2">
+              <div class="iq-title-icon">
+              </div>
+               <span class="iq-subtitle">Customers</span> 
+              <h2 class="iq-title">Our customers</h2>
+            </div>
+          </div>
+          <div class="col-lg-12 col-md-12">
+            <div class="iq-client iq-client-style-1 text-center iq-has-grascale">
+              <div id="my-carousel" class="owl-carousel" data-dots="false" data-nav="false" data-items="6" data-items-laptop="5" data-items-tab="3" data-items-mobile="2" data-items-mobile-sm="1" data-autoplay="true" data-loop="true" data-margin="30">
+                <div class="item">
+                  <div class="iq-client-img">
+                    <img src="images/client/bosch.png" class="img-fluid" alt="client-img" />
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="iq-client-img">
+                    <img src="images/client/equity.png" class="img-fluid" alt="client-img" />
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="iq-client-img">
+                    <img src="images/client/hsbc.png" class="img-fluid" alt="client-img" />
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="iq-client-img">
+                    <img src="images/client/mercedes.png" class="img-fluid" alt="client-img" />
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="iq-client-img">
+                    <img src="images/client/ncba.png" class="img-fluid" alt="client-img" />
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="iq-client-img">
+                    <img src="images/client/pwc.png" class="img-fluid" alt="client-img" />
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="text-center iq-title-box iq-title-default iq-title-box-2">
+              <div class="iq-title-icon">
+              </div>
+               <span class="iq-subtitle"></span> 
+              <h2 class="iq-title">&nbsp;</h2>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Client End -->
+    
+    <!-- <section class="iq-compute-counter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="iq-counter text-center iq-counter-style-1 iq-color">
+              <div class="counter-content">
+                <p class="iq-counter-info">
+                  <span class="timer" data-to="1520" data-speed="5000">1520</span>
+                  <span class="counter-after-content"></span>
+                  <span class="counter-symbol"></span></p>
+                  <h6 class="counter-title-text">Happy clients</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="iq-counter text-center iq-counter-style-1 iq-color">
+                <div class="counter-content">
+                  <p class="iq-counter-info">
+                    <span class="timer" data-to="2000" data-speed="5000">2000</span>
+                    <span class="counter-after-content"></span>
+                    <span class="counter-symbol">+</span></p>
+                    <h6 class="counter-title-text">Completed projects</h6>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="iq-counter text-center iq-counter-style-1 iq-color">
+                  <div class="counter-content">
+                    <p class="iq-counter-info">
+                      <span class="timer" data-to="240" data-speed="5000">240</span>
+                      <span class="counter-after-content"></span>
+                      <span class="counter-symbol"></span></p>
+                      <h6 class="counter-title-text">Team members</h6>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="iq-counter text-center iq-counter-style-1 iq-color">
+                    <div class="counter-content">
+                      <p class="iq-counter-info">
+                        <span class="timer" data-to="750" data-speed="5000">750</span>
+                        <span class="counter-after-content"></span>
+                        <span class="counter-symbol"></span></p>
+                        <h6 class="counter-title-text">Questions Answered</h6>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section> -->
+            
+      <!-- Icon-box Start -->
+      <!-- <section class="iq-pb-70">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="text-center iq-title-box iq-title-default iq-title-box-2">
+                <div class="iq-title-icon">
+                </div>
+                <span class="iq-subtitle">Resources</span>
+                <h2 class="iq-title">
+                Compute Guides and Resources  </h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="iq-icon-box iq-icon-box-style-4 text-center wow fadeInUp" data-wow-delay="0.2s">
+                <div class="icon-box-img">
+                <img src="images/icon-box/19.png" class="img-fluid" alt="02.png">    </div>
+                <div class="icon-box-content">
+                  <h5 class="icon-box-title"><a href="#">Cloud Platform</a>
+                  </h5>
+                  <p class="icon-box-desc"> It is a long established fact that a reader will be distracted by the of readable content Deploy at scale on the.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="iq-icon-box iq-icon-box-style-4   text-center wow fadeInUp" data-wow-delay="0.4s">
+                <div class="icon-box-img">
+                <img src="images/icon-box/17.png" class="img-fluid" alt="01.png">    </div>
+                <div class="icon-box-content">
+                  <h5 class="icon-box-title"><a href="#">Cloud Professionals</a>
+                  </h5>
+                  <p class="icon-box-desc"> It is a long established fact that a reader will be distracted by the of readable content Deploy at scale on the.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="iq-icon-box iq-icon-box-style-4   text-center wow fadeInUp" data-wow-delay="0.6s">
+                <div class="icon-box-img">
+                <img src="images/icon-box/20.png" class="img-fluid" alt="04.png">    </div>
+                <div class="icon-box-content">
+                  <h5 class="icon-box-title"><a href="#">Compute Engine tutorials</a>
+                  </h5>
+                  <p class="icon-box-desc"> It is a long established fact that a reader will be distracted by the of readable content Deploy at scale on the.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section> -->
+        <!-- Icon-box End -->
+        <!-- <section class="iq-getstarted">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                <div class=" text-left iq-title-box iq-title-default iq-title-box-1">
+                  <div class="iq-title-icon">
+                  </div>
+                  <h2 class="iq-title">
+                  Get Started </h2>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                <div class=" text-left iq-title-box iq-title-default iq-title-box-1">
+                  <div class="iq-title-icon">
+                  </div>
+                  <h4 class="iq-title">Learn and build   </h4>
+                  <p class="iq-title-desc">New to GCP? Get started with any GCP products for  free with a $300 credit.</p></div>
+                  <div class="iq-btn-container">
+                    <a class="iq-button d-inline" href="https://iqonic.design/wp-themes/qloud/demo-2/contact-us-1/">Try Free</a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp mt-4 mt-lg-0">
+                  <div class=" text-left iq-title-box iq-title-default iq-title-box-1">
+                    <div class="iq-title-icon">
+                    </div>
+                    <h4 class="iq-title">Need more help?</h4>
+                    <p class="iq-title-desc">Out Experts will help you build the right solution or find the right partner for your needs.</p></div>
+                    <div class="iq-btn-container d-inline-block mr-4">
+                      <a class="iq-button iq-btn-outline d-inline" href="https://iqonic.design/wp-themes/qloud/demo-2/contact-us-1/">   Contact Sales
+                      </a>
+                    </div>
+                    <div class="iq-btn-container d-inline-block">
+                      <a class="iq-button iq-btn-outline d-inline" href="https://iqonic.design/wp-themes/qloud/demo-2/contact-us-1/">  Find a partner
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section> -->
+        <!-- Footer Start -->
+        <footer id="contact" class=" iq-over-dark-90">      
+          <!-- Address -->
+          <div class="footer-top">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 ">
+                  <div class="widget">
+                    <div class="textwidget "><p><img class="mb-4 img-fluid" src="images/snapp_logo_white.svg" alt="Snapp Global Logo" style="width: auto;"><br>
+                      Snapp Global is a technology company specialising in the architecture and implementation of software and infrastructures on numerous cloud platforms.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6 col-sm-6 mt-4 mt-lg-0 mt-md-0 ">
+                <div class="widget">
+                  <h4 class="footer-title">Links</h4>
+                  <div>
+                    <ul  class="menu">
+                      <li><a href="index.html" aria-current="page">Home</a></li>
+                      <li ><a href="about-us.html">About Us</a></li>
+                      <li><a href="services.html">Service</a></li>
+                      <li><a href="blog.html">Careers</a></li>
+                      <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6 col-sm-6 mt-lg-0 mt-4">
+                <div class="widget">
+                  <h4 class="footer-title ">Socials</h4>
+                  <div class="menu-about">
+                    <ul id="menu-about-menu" class="menu">
+                      <li><a href="https://twitter.com/snappglobal" target="_blank">Twitter</a></li>
+                      <li><a href="https://www.linkedin.com/company/snapp-global" target="_blank">Linked In</a></li>
+                      <li><a href="https://mastodon.social/@snappglobal" target="_blank">Masterdon</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6 col-sm-6 mt-lg-0 mt-4">
+                <div class="widget">
+                  <h4 class="footer-title ">Our Partners</h4>
+                  <div class="menu-link">
+                    <ul id="menu-link-menu" class="menu">
+                      <li> <a href="https://azure.microsoft.com" target="_blank">Microsoft Azure</a></li>
+                      <li><a href="https://aws.amazon.com/" target="_blank">Amazon Web Services</a></li>
+                      <li><a href="https://cloud.google.com/" target="_blank">Google Cloud Platform</a></li>
+                      <li><a href="https://cloud.redhat.com/" target="_blank">Red Hat</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 mt-lg-0 mt-4">
+                <div class="widget">
+                  <h4 class="footer-title ">Contact Us</h4>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <ul class="iq-contact">
+                        <li>
+                          <a><i class="fa fa-home"></i><span>Snapp Global
+                            PO Box:48105, Nairobi, Postal Code:00100</span></a>
+                        </li>
+                        <li>
+                          <a href="mailto:support@iqnonicthemes.com"><i class="fa fa-envelope"></i><span>contact@snappglobal.com</span></a>
+                        </li>
+                        <li>
+                          <a href="tel:+0123456789"><i class="fa fa-calendar"></i><span>Mon. - Fri., 9 a.m. - 6.00 p.m.</span></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Address END -->
+        <div class="copyright-footer">
+          <div class="container">
+            <div class="pt-3 pb-3">
+              <div class="row justify-content-between">
+                <div class="col-lg-6 col-md-12 text-lg-left text-md-center text-center">
+                  <div class="social-icone">
+                    <ul>
+                      <!-- <li class="d-inline"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li class="d-inline"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                      <li class="d-inline"><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 text-lg-right text-md-center text-center">
+                  <span class="copyright">Copyright 2023 Snapp Global All Rights Reserved.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer End -->
+      <!-- === back-to-top === -->
+      <div id="back-to-top">
+        <a class="top" id="top" href="#top"> <i class="ion-ios-arrow-up"></i> </a>
+      </div>
+      <!-- === back-to-top End === -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.js"></script>
+    <!-- jQuery  for scroll me js -->
+    <script src='js/jquery-min.js'></script>
+    <!-- popper  -->
+    <script src="js/popper.min.js"></script>
+    <!--  bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Appear JavaScript -->
+    <script src="js/appear.js"></script>
+
+    <!-- Jquery-migrate JavaScript -->
+    <script src='js/jquery-migrate.min.js'></script>
+    <!-- Scripts JavaScript -->
+    <script src='js/scripts.js'></script>
+    <!-- countdownTimer JavaScript -->
+    <script src='js/jQuery.countdownTimer.min.js'></script>
+    <!-- Tox-progress JavaScript -->
+    <script src='js/tox-progress.min.js'></script>
+    <!-- Timeline JavaScript -->
+    <script src='js/timeline.js'></script>
+    <!-- Timeline min JavaScript -->
+    <script src='js/timeline.min.js'></script>
+    <!-- Slick JavaScript -->
+    <script src='js/slick.min.js'></script>
+    <!-- Popper JavaScript -->
+    <script src='js/popper.min.js'></script>
+    <!-- Owl.carousel JavaScript -->
+    <script src='js/owl.carousel.min.js'></script>
+    <!-- Countdown JavaScript -->
+    <script src='js/countdown.js'></script>
+    <!-- Jquery.countTo JavaScript -->
+    <script src='js/jquery.countTo.js'></script>
+    <!-- Magnific-popup JavaScript -->
+    <script src='js/jquery.magnific-popup.min.js'></script>
+    <!-- Isotope.pkgd.min JavaScript -->
+    <script src='js/isotope.pkgd.min.js'></script>
+    <!-- Wow JavaScript -->
+    <script src='js/wow.min.js'></script>
+    <!--  Custom JavaScript -->
+    <script src="js/custom.js"></script>
+    <!-- REVOLUTION JS FILES -->
+    <script src="revslider/js/revolution.tools.min.js"></script>
+    <script src="revslider/js/rs6.min.js"></script>
+      <script >
+      
+      var   revapi9,
+      tpj;
+      jQuery(function() {
+      tpj = jQuery;
+      if(tpj("#rev_slider_9_1").revolution == undefined){
+      revslider_showDoubleJqueryError("#rev_slider_9_1");
+      }else{
+      revapi9 = tpj("#rev_slider_9_1").show().revolution({
+      jsFileLocation:"js/",
+      sliderLayout:"fullwidth",
+      visibilityLevels:"1240,1240,778,480",
+      gridwidth:"1600,1600,778,480",
+      gridheight:"900,900,960,720",
+      spinner:"spinner0",
+      editorheight:"900,768,960,720",
+      responsiveLevels:"1240,1240,778,480",
+      disableProgressBar:"on",
+      navigation: {
+      onHoverStop:false
+      },
+      fallbacks: {
+      allowHTML5AutoPlayOnAndroid:true
+      },
+      });
+      }
+      
+      });
+      </script>
     </body>
-</html>
+  </html>
